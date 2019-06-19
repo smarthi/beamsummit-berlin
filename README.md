@@ -1,1 +1,1 @@
-# Beam Summit 2018, London, United Kingdom - Satellite Image Classification for LandUse
+# Beam Summit 2019, Berlin, Germany - Beaming Deep Learning with Ludwig

@@ -52,6 +52,7 @@
                             <h6 style='text-align: left; font-size: 80%;'>Suneel Marthi <br/><span style="font-size: 60%"><i class="fa fa-twitter" aria-hidden="true"></i> @suneelmarthi</span></h6>
                             <ul style='font-size: 70%;'>
                                 <li>Member of Apache Software Foundation</li>
+                                <li></li>
                             </ul>
                         </li>
                     </ul>
@@ -156,10 +157,14 @@
             <h3>Beaming Ludwig Models</h3>
             <p style='text-align: left'>Train a Ludwig Model offline</p>
             <p style='text-align: left'>Model Inference in a Beam pipeline</p>
+        </section>
+
+        <section data-background-image="img/ZsMwlm2-yellowish.png">
+            <h3>Inference Pipeline</h3>
             <img src='img/inference-pipeline.png' style='max-width: 80%; border: none; background: none;box-shadow: none; '/>
         </section>
 
-        <section data-background-image="img/beam_summit_2018.png">
+        <section data-background-image="img/ZsMwlm2-redish.png">
             <h3>Beam Inference Pipeline</h3>
             <pre><code data-trim data-noescape>
                 pipeline_options = PipelineOptions(pipeline_args)
@@ -174,12 +179,18 @@
             </code></pre>
         </section>
 
-        <section data-background-image="img/ZsMwlm2-yellowish.png">
-            <h3>Future Work</h3>
-            <p style='text-align: left'>Train a Ludwig Model offline</p>
-            <p style='text-align: left'>Model Inference in a Beam pipeline</p>
-            <img src='img/inference-pipeline.png' style='max-width: 80%; border: none; background: none;box-shadow: none; '/>
+        <section data-background-image="img/ZsMwlm2-greenish.png">
+            <h3>Limitations</h3>
+            <p style='text-align: left'>Ludwig presently only supports CSV inputs</p>
+            <p style='text-align: left'>Model training still needs to be done offline</p>
         </section>
+
+        <section data-background-image="img/ZsMwlm2-purpleish.png">
+            <h3>Future Work</h3>
+            <p style='text-align: left'>Add support in Ludwig to handle TFRecords, use Beam's TFRecordIO to proceess Ludwig records</p>
+            <p style='text-align: left'>Explore integration of Ludwig and TFX ?</p>
+        </section>
+
         <section data-background-image="img/ZsMwlm2-redish.jpg">
             <h2>Links</h2>
             <ul>
